@@ -10,7 +10,7 @@ from sklearn.metrics import accuracy_score, confusion_matrix
 st.title("Logistic Regression Streamlit App")
 
 # Upload dataset
-uploaded_file = st.file_uploader("C:\Users\Telang\Desktop\excelr\Titanic_train.csv", type=["csv"])
+uploaded_file = st.file_uploader(r"C:\Users\Telang\Desktop\excelr\Titanic_train.csv", type=["csv"])
 
 if uploaded_file is not None:
     # Read dataset
